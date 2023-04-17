@@ -71,7 +71,7 @@
       )
       (symbol "ICM-40608_1_1"
         (rectangle (start 2.54 -11.43) (end 44.45 -31.75)
-          (stroke (width 0) (type default))
+          (stroke (width 0.254) (type default))
           (fill (type background))
         )
         (pin output line (at 46.99 -20.32 180) (length 2.54)
@@ -356,7 +356,7 @@
   (symbol (lib_id "power:GND") (at 140.335 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09e8733f-fd21-45b3-876b-23f46c94c68e)
-    (property "Reference" "#PWR022" (at 140.335 83.185 0)
+    (property "Reference" "#PWR016" (at 140.335 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 81.915 0)
@@ -371,14 +371,14 @@
     (pin "1" (uuid 1d95220f-4f71-4b12-8214-95ad3c9b1940))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "#PWR016") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "#PWR022") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "#PWR028") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -387,7 +387,7 @@
   (symbol (lib_id "power:GND") (at 132.08 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18110e1c-1255-41d1-9697-fb085a8922bd)
-    (property "Reference" "#PWR024" (at 132.08 120.015 0)
+    (property "Reference" "#PWR018" (at 132.08 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 118.745 0)
@@ -402,14 +402,14 @@
     (pin "1" (uuid ae642f73-e44b-4a27-8ef3-1eddf776d556))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "#PWR018") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "#PWR024") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "#PWR030") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -418,7 +418,7 @@
   (symbol (lib_id "Device:C") (at 113.665 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dc60c70-76f9-4e85-abc4-9e5316d55e01)
-    (property "Reference" "C6" (at 117.475 70.485 0)
+    (property "Reference" "C3" (at 117.475 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2" (at 117.475 73.025 0)
@@ -434,14 +434,14 @@
     (pin "2" (uuid 4c2fe374-3033-4d76-ba0d-15edc8ae0e3f))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "C3") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "C6") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "C9") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "C3") (unit 1)
         )
       )
     )
@@ -450,7 +450,7 @@
   (symbol (lib_id "power:GND") (at 123.19 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 636c2334-2a43-43d5-8914-7baa17b8c200)
-    (property "Reference" "#PWR021" (at 123.19 83.185 0)
+    (property "Reference" "#PWR015" (at 123.19 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 81.915 0)
@@ -465,14 +465,14 @@
     (pin "1" (uuid f2b7a04e-21ac-43b0-b6f4-0e11205a6d6a))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "#PWR015") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "#PWR021") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "#PWR027") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -481,7 +481,7 @@
   (symbol (lib_id "power:+3.3V") (at 133.35 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aac080ee-0706-4be3-8232-998e059b5c8b)
-    (property "Reference" "#PWR019" (at 133.35 66.04 0)
+    (property "Reference" "#PWR013" (at 133.35 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 133.35 58.42 0)
@@ -496,14 +496,14 @@
     (pin "1" (uuid b5f254ed-c298-4a14-a352-9553804642cb))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "#PWR013") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "#PWR019") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "#PWR025") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -512,7 +512,7 @@
   (symbol (lib_id "IMU:ICM-40608") (at 120.65 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b472ae5a-e50c-4b90-bf73-3286d16fec6e)
-    (property "Reference" "U5" (at 134.0359 106.68 0)
+    (property "Reference" "U4" (at 134.0359 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ICM-40608" (at 144.145 106.68 0)
@@ -540,14 +540,14 @@
     (pin "9" (uuid 0a2beac3-901c-4640-a637-00e7cfe9d97f))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "U4") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "U5") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "U6") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "U4") (unit 1)
         )
       )
     )
@@ -556,7 +556,7 @@
   (symbol (lib_id "Device:C") (at 140.335 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9e291f3-0b89-42e7-a1ed-d638af815637)
-    (property "Reference" "C8" (at 144.145 70.485 0)
+    (property "Reference" "C5" (at 144.145 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 144.145 73.025 0)
@@ -572,14 +572,14 @@
     (pin "2" (uuid 484e4d1e-60d1-4627-925f-fccba5d0ee80))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "C5") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "C8") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "C11") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "C5") (unit 1)
         )
       )
     )
@@ -588,7 +588,7 @@
   (symbol (lib_id "power:GND") (at 119.38 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3f9bbba-15df-4563-be30-2177054a90e7)
-    (property "Reference" "#PWR023" (at 119.38 120.015 0)
+    (property "Reference" "#PWR017" (at 119.38 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 118.11 0)
@@ -603,14 +603,14 @@
     (pin "1" (uuid 468b33c3-0e66-4d32-9fbe-f67a16c9c510))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "#PWR017") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "#PWR023") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "#PWR029") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -619,7 +619,7 @@
   (symbol (lib_id "Device:C") (at 123.19 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd6fa386-551e-4c8f-95dd-3cbf2a817d18)
-    (property "Reference" "C7" (at 127 70.485 0)
+    (property "Reference" "C4" (at 127 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 127 73.025 0)
@@ -635,14 +635,14 @@
     (pin "2" (uuid cf24aa63-871c-4075-994a-18dbb1726360))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "C4") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "C7") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "C10") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "C4") (unit 1)
         )
       )
     )
@@ -651,7 +651,7 @@
   (symbol (lib_id "power:GND") (at 113.665 76.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc6b54c3-9145-4f55-a203-6e09889eb69f)
-    (property "Reference" "#PWR020" (at 113.665 83.185 0)
+    (property "Reference" "#PWR014" (at 113.665 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.665 81.915 0)
@@ -666,14 +666,14 @@
     (pin "1" (uuid 9145a26e-2046-4e35-b75d-408b92f9fdb4))
     (instances
       (project "Open_hand"
+        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
+          (reference "#PWR014") (unit 1)
+        )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/f45c3bb1-fb6d-4b4c-94a8-5b9321358f13"
           (reference "#PWR020") (unit 1)
         )
         (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/2828d35a-0b94-4671-ad90-1bab511aff69"
           (reference "#PWR026") (unit 1)
-        )
-        (path "/528d8ed7-b83e-40f9-82c3-8267528d108b/e2bb258b-f78d-4c92-a919-0a7042cdcd26"
-          (reference "#PWR014") (unit 1)
         )
       )
     )
