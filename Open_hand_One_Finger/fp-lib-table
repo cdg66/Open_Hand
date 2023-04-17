@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DF37C-24DP-0.4V(51)")(type "KiCad")(uri "${KIPRJMOD}/DF37C-24DP-0.4V(51).pretty")(options "")(descr ""))
+)
